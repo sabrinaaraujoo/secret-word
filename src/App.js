@@ -133,7 +133,7 @@ function App() {
     }
 
     // console.log(uniqueLetters);
-  }, [guessedLetters, letters, startGame]);
+  }, [guessedLetters, letters, startGame, gameStage]);
 
   // retarts the game
   const retry = () => {
